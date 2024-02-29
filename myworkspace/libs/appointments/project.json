@@ -1,0 +1,9 @@
+{
+  "name": "appointments",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/appointments/src",
+  "prefix": "myworkspace",
+  "tags": ["feature"],
+  "projectType": "library",
+  "targets": {}
+}

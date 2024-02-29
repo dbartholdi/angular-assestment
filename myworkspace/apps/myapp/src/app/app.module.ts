@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppointmentsStoreModule } from '@myworkspace/appointments';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 
 @NgModule({
   declarations: [AppComponent],
@@ -28,6 +29,11 @@ import { AppointmentsStoreModule } from '@myworkspace/appointments';
       }
     ),
     EffectsModule.forRoot([]),
+    StoreDevtoolsModule.instrument({
+      maxAge: 25,
+      logOnly: false,
+      name: 'Appointments',
+    }),
     AppointmentsStoreModule
   ],
   providers: [],
