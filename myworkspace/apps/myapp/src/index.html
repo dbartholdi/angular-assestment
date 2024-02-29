@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>myapp</title>
-    <base href="/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  </head>
-  <body>
-    <myworkspace-root></myworkspace-root>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  ​
+  <link
+    integrity="sha384-MmmmJeEPAxD1iX6n7wdbLW0dteLhwnZNVUFWFcfQKHo0hZKn4FlvIwL/QbAxiiH8" crossorigin="anonymous"
+    rel="icon" href="https://sdx.scsstatic.ch/v2.115.0/images/favicon.ico" type="image/x-icon" sizes="32x32">
+  <link
+    integrity="sha384-1Vw8E/e4hde3fDcxPuE0dTCNkbv7n5jnh+c8vFi/JSBR69MBPGpFtwa2Aa9C0dGZ" crossorigin="anonymous"
+    rel="icon" href="https://sdx.scsstatic.ch/v2.115.0/images/svgs/swisscom-logo-lifeform.svg" type="image/svg+xml">
+  <link
+    integrity="sha384-chaYXls8KFU2Z0IjQM6ov610YWOVnbZtPnhqSxZkzSa625S9n8KfM6Z6mpLv5AQN" crossorigin="anonymous"
+    rel="apple-touch-icon" href="https://sdx.scsstatic.ch/v2.115.0/images/swisscom-logo-lifeform-180x180.png">
+  ​
+  <!-- SDX Web Components CSS (~30 KB gzipped, contains only SDX Web Components) -->
+  <link
+    integrity="sha384-kQmitIh65ygnl5U6ucdSi2ry1RsNo8/L08iUJvATZTOSs0Y8kRSKYp6HLzAbXx/Q" crossorigin="anonymous"
+    rel="stylesheet"
+    href="https://sdx.scsstatic.ch/v2.115.0/css/webcomponents.min.css">
+  ​
+  <!-- SDX CSS (~60 KB gzipped alternative which also includes "non Web Component" SDX components) -->
+  <!-- <link integrity="sha384-hk8TORRDk9VFi3OrqPiWnykieVNvtDIwelFIG6hOzlWb541VChKko/A7YCG/zoOl" crossorigin="anonymous" rel="stylesheet" href="https://sdx.scsstatic.ch/v2.115.0/css/sdx.min.css"> -->
+  ​
+  <!-- SDX Web Components JS (~4 KB gzipped, lazy loads only SDX Web Components effectively used) -->
+  <script
+    integrity="sha384-D2l+smokN6bVgOy74g0IOxsNhg6KOUepGWvAZCvIZ/aTmTkhajKmoiqOQ2i8ugZg" crossorigin="anonymous"
+    type="module"
+    src="https://sdx.scsstatic.ch/v2.115.0/js/webcomponents/webcomponents/webcomponents.esm.js"></script>
+</head>
+<body class="sdx"> <!-- SDX scope (can be applied to any containing element) -->
+  <myworkspace-root></myworkspace-root>
+</body>
 </html>
